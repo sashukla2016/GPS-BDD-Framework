@@ -18,7 +18,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.gps.qa.util.TestUtil;
 
 public class TestBase {
-
+//this is a base class
 	public static WebDriver driver;
 	public static Properties prop;
 	//public static WebEventListener eventListener;
