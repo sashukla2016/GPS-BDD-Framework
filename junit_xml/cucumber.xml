@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.921984">
+<testcase classname="GPS Login Feature" name="GPS Login Test Scenario" time="18.921984">
+<system-out><![CDATA[Given launch the browser and open the application...........................passed
+When user enters the credentials............................................passed
+Then user clicks on login button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10884486285,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "GPS Login Test Scenario",
+        "description": "",
+        "id": "gps-login-feature;gps-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 907553278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3286105368,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the browser and open the application",
+            "match": {
+              "location": "LoginStepDefiniton.launch_the_browser_and_open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 858248274,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the credentials",
+            "match": {
+              "location": "LoginStepDefiniton.user_enters_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2985591128,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefiniton.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 3,
+            "name": "@End2End"
+          }
+        ]
+      }
+    ],
+    "name": "GPS Login Feature",
+    "description": "",
+    "id": "gps-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Saumya/SeleniumAutomation/GPSBDDFramework/src/main/java/com/gps/qa/Features/login.feature"
+  }
+]
